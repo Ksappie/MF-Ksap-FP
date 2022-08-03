@@ -1,6 +1,6 @@
 .hero-image {
-    background-image: linear-gradient(rgba(254, 254, 254, 0.5), rgba(59, 59, 59, 0.5)), url("hero.jpg");
-    height: 10%;
+    background-image: linear-gradient(rgba(254, 254, 254, 0.5), rgba(59, 59, 59, 0.5)), url("../img/dragonflydoor50op.jpg");
+    height:900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
