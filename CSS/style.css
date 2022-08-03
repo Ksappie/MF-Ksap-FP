@@ -13,8 +13,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rebeccapurple;
-    text-shadow: 2px 2px 5px cyan;
+    color: rgb(15, 15, 15);
+    text-shadow: 2px 2px 5px rgb(69, 69, 69);
   }
   
   .hero-text button {
@@ -22,13 +22,13 @@
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: cyan;
-    background-color: rebeccapurple;
+    color: black;
+    background-color: rgb(55, 55, 55);
     text-align: center;
     cursor: pointer;
   }
   
   .hero-text button:hover {
-    background-color: cyan;
-    color: rebeccapurple;
+    background-color: rgb(38, 38, 38);
+    color: black;
   }
