@@ -13,7 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: #D9AC59;
     text-shadow: 2px 2px 5px rgb(69, 69, 69);
   }
   
@@ -33,6 +33,15 @@
     color: black;
   }
 
-  .h1{
-    color:#D9B54A
+  .yellow {
+    color:#D9AC59;
+  }
+
+  .lyellow {
+    color:#D9B54A;
+  }
+
+  .nav-link {
+    color: #D7D9D9 !important;
+    font-weight: bold;
   }
