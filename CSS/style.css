@@ -88,7 +88,6 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #D7D9D9e;
   color: #4E9FBF;
   padding: 12px 20px;
   border: none;
@@ -105,4 +104,14 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #6d6d6d;
  padding: 20px;
+}
+
+.carousel-item {
+  max-height:1000px;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 70%;
 }
