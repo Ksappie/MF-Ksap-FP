@@ -22,15 +22,15 @@
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(55, 55, 55);
+    color: #4E9FBF;
+    background-color: #D7D9D9;
     text-align: center;
     cursor: pointer;
   }
   
   .hero-text button:hover {
-    background-color: rgb(38, 38, 38);
-    color: black;
+    background-color: #4E9FBF;
+    color: #A6444C;
   }
 
   .yellow {
@@ -41,7 +41,67 @@
     color:#D9B54A;
   }
 
+  .maroon {
+    color:#A6444C
+  }
+
+  .blued {
+    color:#4E9FBF
+  }
+
+  .offwhite {
+    color: #D7D9D9
+  }
+
   .nav-link {
     color: #D7D9D9 !important;
     font-weight: bold;
   }
+
+  .parallax {
+    /* The image used */
+    background-image: url("../img/chefian50.jpg");
+  
+    /* Set a specific height */
+    min-height: 1000px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+font-family:sans-serif
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rebeccapurple;
+  color: cyan;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: cyan;
+}
+
+.container-1 {
+  border-radius: 5px;
+  background-color: #6d6d6d;
+ padding: 20px;
+}
