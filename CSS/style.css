@@ -63,7 +63,7 @@
     background-image: url("../img/chefian50.jpg");
   
     /* Set a specific height */
-    min-height: 1000px; 
+    min-height: 900px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -88,8 +88,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rebeccapurple;
-  color: cyan;
+  background-color: #D7D9D9e;
+  color: #4E9FBF;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -97,7 +97,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: cyan;
+  background-color: #4E9FBF;
+  color:#A6444C
 }
 
 .container-1 {
